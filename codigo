@@ -1,0 +1,30 @@
+fun bonus (cargo:String):Float {
+
+    return if (cargo == "gerente") {
+
+        2000f
+    } else if (cargo == "codernador") {
+        1500f
+    } else if (cargo == "engenheiro de sotware") {
+        1000f
+    } else if (cargo == "Estagiario") {
+        500f
+
+    } else
+        0f
+}
+
+fun bonuswhen (cargo: String):Float {
+    return when (cargo) {
+
+        "gerente" -> 2000f
+        "cordenador" -> 15000f
+        "engenheiro de software" -> 1000f
+        "estagiario" -> 500f
+        else -> 0f
+    }
+}
+
+    fun main () {
+
+bonuswhen( "kkkkk")
